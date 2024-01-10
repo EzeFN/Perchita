@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>La Perchita</title>
 </head>
 <body>
-    
+    <header>
+        <div id="Vestidos" class="tabcontent">
+            <h1>Vestidos</h1>
+            <p>London is the capital city of England.</p>
+          </div>
+          
+          <div id="Paris" class="tabcontent">
+            <h1>Paris</h1>
+            <p>Paris is the capital of France.</p>
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <h1>Tokyo</h1>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+          
+          <button class="tablink" onclick="openCity('Vestidos', this, 'rgb(39, 78, 128)')" id="defaultOpen">Vestidos</button>
+          <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+          <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+    </header>
+    <script src="script.js"></script>
 </body>
 </html>
